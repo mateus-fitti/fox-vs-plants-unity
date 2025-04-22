@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2642020829202224033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9104860049922248184}
+  - component: {fileID: 4296722551666724779}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9104860049922248184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2642020829202224033}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4296722551666724779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2642020829202224033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5325c6483ae4bf440800d1dd5f6f79d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24300002, guid: 7f3e28dc77dbfb540937c608cc9571f2, type: 2}
+  sounds:
+  - name: Music
+    clip: {fileID: 8300000, guid: 2922a98127006c749a5b8705e138baab, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 1
+    single: 0
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Sword
+    clip: {fileID: 8300000, guid: 30c27db6c6d526341959bbdecca5cacd, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    single: 0
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Leaf
+    clip: {fileID: 8300000, guid: 8806ff2b708997d4a8943f779e502873, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    single: 0
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Hit
+    clip: {fileID: 8300000, guid: 9a74d09c80cc6394881eb4998e0a6d02, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    single: 0
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Destroy
+    clip: {fileID: 8300000, guid: 5fa5126fbd9d1d142a305fc3e2a8443c, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    single: 0
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: bc4455cfc27970040841ec225c42d830, type: 3}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    single: 0
+    source: {fileID: 0}
+    mixer: {fileID: 0}
+  mainVolume: 0.3
